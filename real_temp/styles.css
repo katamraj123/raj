@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.newsletter-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.newsletter-header {
+    background-color: rgb(229, 238, 242);
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This aligns the items to opposite ends */
+}
+
+.newsletter-header img {
+    max-width: 200px; /* Increased the logo size */
+    height: auto;
+}
+
+.newsletter-header h1 {
+    font-size: 1.5rem;
+    color: #403535;
+    margin: 0;
+}
+
+.banner {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+.newsletter-content {
+    padding: 20px;
+    text-align: left;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+}
+
+.newsletter-content h2, .newsletter-content h3 {
+    font-size: 1.6rem;
+    color: #0073e6;
+    margin-bottom: 15px;
+}
+
+.newsletter-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.newsletter-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.newsletter-content ul li {
+    margin-bottom: 10px;
+}
+
+.newsletter-content ul li img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.services-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left;
+    color: #0073e6;
+    margin-top: 20px;
+}
+
+.services-section {
+    background-color: #39ACE9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: white;
+    text-align: left;
+}
+
+.services-section div {
+    width: 45%;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.newsletter-footer {
+    background-color: #F6C70D;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.unsubscribe {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #ccc;
+}
+
+.newsletter-footer .footer-details {
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+.newsletter-footer .social-links {
+    font-size: 1.5rem;
+}
+
+.newsletter-footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.newsletter-footer .social-links a:hover {
+    color: #0073e6;
+}
+
+@media only screen and (max-width: 768px) {
+    .newsletter-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .newsletter-header img {
+        width: 100px;
+    }
+
+    .newsletter-content h2, .newsletter-content h3 {
+        font-size: 1.4rem;
+    }
+
+    .newsletter-content p {
+        font-size: 1rem;
+    }
+
+    .banner {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .services-section div {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
